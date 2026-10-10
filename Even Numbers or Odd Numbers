@@ -1,0 +1,11 @@
+def show_numbers(number):
+    for i in range(0,number+1):
+        if i % 2 == 0:
+            print(str(i) + " " + "EVEN")
+        else:
+            print(str(i) + " " + "ODD")
+    # Complete this Function
+
+number = int(input())
+show_numbers(number)
+# Call the show_numbers function
