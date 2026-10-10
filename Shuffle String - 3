@@ -1,0 +1,16 @@
+def shuffle_string(string, indexes_list):
+    shuffled = ""
+    values = indexes_list.split()
+    for i in values:
+        index = int(i)
+        shuffled = shuffled + string[index]
+    return shuffled
+    
+    # complete this function
+
+
+string = input()
+indices_list = input()
+
+result = shuffle_string(string, indices_list) # call the shuffle_string function
+print(result)
