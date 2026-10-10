@@ -1,0 +1,9 @@
+string = input().split(",")
+new_list = []
+for char in string:
+    value = int(char)
+    new_list += [value]
+small = min(new_list)
+big = max(new_list)
+diff = big - small
+print(diff)
