@@ -1,0 +1,17 @@
+def count_of_uppercase(word):
+    count = 0
+    
+    for char in word:
+        is_upper = char.upper()
+        if char == is_upper:
+            count += 1 
+    return count
+    # complete this function
+
+
+
+word = input()
+
+result = count_of_uppercase(word) # Call the count_of_uppercase function
+
+print(result)
