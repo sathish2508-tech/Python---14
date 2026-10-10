@@ -1,0 +1,17 @@
+def calculate_league_points(wins, draws, losses):
+    win = 4
+    draw = 2
+    loss = -1
+    sum = wins * win + draws * draw + losses * loss
+    return sum
+    
+    # Complete this function
+
+
+statistics = input().split(",")
+wins = int(statistics[0])
+draws = int(statistics[1])
+losses = int(statistics[2])
+sum = calculate_league_points(wins, draws, losses)
+print(sum)
+# Call the calculate_league_points function
