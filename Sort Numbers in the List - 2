@@ -1,0 +1,6 @@
+list_s = input().split(",")
+list_v = []
+for val in list_s:
+    new_list = int(val)
+    list_v += [new_list]
+print(sorted(list_v, reverse = True))
