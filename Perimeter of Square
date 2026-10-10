@@ -1,0 +1,8 @@
+def perimeter_of_square(arg_1):
+    square = arg_1 * 4 
+    return square
+    # Write your code here
+
+side = int(input())
+result = perimeter_of_square(arg_1 = side)
+print(result)
