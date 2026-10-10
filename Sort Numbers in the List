@@ -1,0 +1,6 @@
+string = input().split(",")
+new_list = []
+for char in string:
+    val = int(char)
+    new_list += [val]
+print(sorted(new_list))
