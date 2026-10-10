@@ -1,0 +1,15 @@
+def calculate_bill(amount):
+    if (amount < 500):
+        discount = (5 / 100) * amount
+    elif (amount >= 500 and amount < 2500):
+        discount = (10 / 100) * amount
+    else:
+        discount = (20 / 100) * amount
+    return discount
+    # Complete this function
+
+
+amount = int(input())
+bill_amount = calculate_bill(amount)
+print(bill_amount)
+# Call the calculate_bill function
