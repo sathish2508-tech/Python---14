@@ -1,0 +1,8 @@
+def say_wishes(arg_1):
+    msg = "Welcome " + arg_1
+    return msg
+    # Write your code here
+
+name = input()
+string = say_wishes(arg_1 = name)
+print(string)
