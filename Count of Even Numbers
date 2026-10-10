@@ -1,0 +1,13 @@
+def get_even_numbers_count(numbers):
+    count = 0
+    string = numbers.split(" ")
+    for i in string:
+        if (int(i) % 2 == 0):
+            count += 1 
+    return count
+    # complete this function
+
+
+numbers = input()
+result = get_even_numbers_count(numbers) # call the get_even_numbers_count function
+print(result)
