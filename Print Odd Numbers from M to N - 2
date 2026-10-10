@@ -1,0 +1,16 @@
+def get_odd_numbers_in_range(start_number, end_number):
+    odd_numbers = []
+    for i in range(start_number, end_number + 1):
+        if (i % 2 != 0):
+            odd_numbers += [str(i)]
+    odd_values = " ".join(odd_numbers)
+    return odd_values
+    # complete this function
+    
+
+start_number = int(input())
+end_number = int(input())
+
+odd_numbers = get_odd_numbers_in_range (start_number, end_number) # Call the odd_numbers_in_range function
+
+print(odd_numbers)
