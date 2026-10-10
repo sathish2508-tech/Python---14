@@ -1,0 +1,11 @@
+def indexing(arg_1, arg_2):
+    char = arg_1[arg_2]
+    return char
+        
+    # Complete this function
+
+word = input()
+index = int(input())
+letter = indexing(word,index)
+print(letter)
+# Call the indexing function
