@@ -1,0 +1,16 @@
+def calculate_percentage(number):
+    if number < 1000:
+        percentage = (5 / 100) * number
+        return percentage
+    else:
+        percentage = (10 / 100) * number
+        return percentage
+    # complete this function
+
+
+
+number = int(input())
+
+result = calculate_percentage(number) # Call the calculate_percentage function
+
+print(result)
