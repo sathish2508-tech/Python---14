@@ -1,0 +1,6 @@
+values = input().split()
+value = []
+for i in values:
+    val = int(i)
+    value += [val]
+print(sum(value))
