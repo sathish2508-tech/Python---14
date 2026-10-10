@@ -1,0 +1,6 @@
+list_a = input().split(",")
+list = []
+for char in list_a:
+    val = int(char)
+    list += [val]
+print(min(list))
