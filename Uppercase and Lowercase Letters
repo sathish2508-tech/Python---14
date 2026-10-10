@@ -1,0 +1,18 @@
+def get_lower_and_upper_case_letters(word):
+    upper = ""
+    lower = ""
+    for char in word:
+        upper_case = char.upper()
+        lower_case = char.lower()
+        if char == upper_case:
+            upper += char
+        if char == lower_case:
+            lower += char
+    print(upper)
+    print(lower)
+    # Complete this function
+
+
+word = input()
+get_lower_and_upper_case_letters(word)
+# Call the get_lower_and_upper_case_letters function
