@@ -1,0 +1,8 @@
+string = input().split(',')
+new_string = []
+for char in string:
+    list = int(char)
+    new_string += [list]
+list_a = sorted(new_string, reverse = True)
+limit = list_a[:5]
+print(sum(limit))
