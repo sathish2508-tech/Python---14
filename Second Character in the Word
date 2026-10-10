@@ -1,0 +1,9 @@
+def second_character(arg_1):
+    letter = arg_1[1]
+    return letter
+    # Complete this function
+
+word = input()
+second_letter = second_character(arg_1 = word)
+print(second_letter)
+# Call the second_character function
