@@ -1,0 +1,6 @@
+string = input().split(",")
+list = []
+for char in string:
+    val = int(char)
+    list += [val]
+print(max(list))
