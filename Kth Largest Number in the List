@@ -1,0 +1,9 @@
+list_a = input().split(",")
+list_k = int(input())
+new_list = []
+for val in list_a:
+    char = int(val)
+    new_list += [char]
+order = sorted(new_list, reverse = True)
+value = order[list_k - 1]
+print(value)
