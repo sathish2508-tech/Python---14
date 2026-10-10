@@ -1,0 +1,17 @@
+def valid_string(string):
+    length = len(string)
+    if (length >= 6 or string[0].isdigit()):
+        it_is = "Valid String"
+        return it_is
+    else:
+        it_is = "Invalid String"
+        return it_is
+    # complete this function
+
+
+
+string = input()
+
+result = valid_string(string) # Call the valid_string function
+
+print(result)
